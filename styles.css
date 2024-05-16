@@ -1,4 +1,4 @@
-.cabecalho{background-color: rgb(17, 219, 219);
+.cabecalho{background-color: rgb(6,19,95,0.705);
  display:flex;
  padding:30px;
  font-size:24px;
@@ -16,14 +16,7 @@ justify-content:space-around;
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-.turma{background-image:linear-gradient rgb(17,219,219) rgb(219);
+.turma {background-image: linear-gradient(rgba(6,19,95,0.705), rgba(182,));
 padding: 30px;
 }
 .turma-titulo{
@@ -43,3 +36,17 @@ padding: 30px;
     width: 300px;
 }
 
+.estudante{
+    background-image: linear-gradient(rgba(6,19,95,0.705)), rgba(163,173,
+    228,0.705);
+}
+
+.estudante-titulo{
+    text-align:center;
+    font-size: 26px;
+    padding: 30px;
+}
+ .estudante-todos{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%
+ }
